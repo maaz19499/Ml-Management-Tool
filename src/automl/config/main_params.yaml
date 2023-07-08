@@ -1,0 +1,12 @@
+default_params_range: ['min','max','interval','dist','dtype']
+
+# Algo Params Settings
+algo_supported:
+  XG Boost:
+    default_param_file: default_xgbparams.yaml
+    user_modified_file: xgbparams.yaml
+  
+  Random Forest: 
+    default_param_file: default_rfbparams.yaml
+    user_modified_file: rfparams.yaml
+

@@ -1,0 +1,54 @@
+colsample_bytree:
+  distribution: uniform
+  dtype: float
+  interval: None
+  max: 1
+  min: 0.5
+gamma:
+  distribution: uniform
+  dtype: float
+  interval: None
+  max: 10
+  min: 0
+learning_rate:
+  distribution: uniform
+  dtype: float
+  interval: None
+  max: 0.9
+  min: 1.0e-07
+max_depth:
+  distribution: quniform
+  dtype: int
+  interval: 1
+  max: 30
+  min: 2
+min_child_weight:
+  distribution: quniform
+  dtype: int
+  interval: 1
+  max: 10
+  min: 0
+n_estimators:
+  distribution: quniform
+  dtype: int
+  interval: 1
+  max: 500
+  min: 2
+pos_weight:
+  distribution: uniform
+  dtype: float
+  interval: None
+  max: 0.9
+  min: 0.01
+reg_alpha:
+  distribution: uniform
+  dtype: float
+  interval: None
+  max: 0.01
+  min: 1.0e-06
+reg_lambda:
+  distribution: uniform
+  dtype: float
+  interval: None
+  max: 0.01
+  min: 1.0e-06

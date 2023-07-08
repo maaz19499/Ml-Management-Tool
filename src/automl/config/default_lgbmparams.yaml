@@ -1,0 +1,57 @@
+num_leaves:
+   min: 2
+   max: 25
+   interval: 1
+   distribution: quniform
+   dtype: int
+
+min_child_samples:
+   min: 2
+   max: 10
+   interval: 1
+   distribution: quniform
+   dtype: int
+
+colsample_bytree:
+   min: .5
+   max: .9
+   interval: None
+   distribution: uniform
+   dtype: float
+
+reg_alpha:
+   min: .00001
+   max: .9
+   interval: None
+   distribution: uniform
+   dtype: float
+
+reg_lambda:
+   min: .00001
+   max: .9
+   interval: None
+   distribution: uniform
+   dtype: float
+
+
+learning_rate:
+   min: .0001
+   max: .9
+   interval: None
+   distribution: uniform
+   dtype: float
+
+n_estimators:
+   min: 50
+   max: 500 
+   interval: 1
+   distribution: quniform
+   dtype: int
+
+
+pos_weight:
+   min: .01
+   max: .9
+   interval: None
+   distribution: uniform
+   dtype: float

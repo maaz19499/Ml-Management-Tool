@@ -1,0 +1,8 @@
+    To set up the ML Dashborad:
+
+1. create an environment variable
+2. install the requirement.txt packages in the environment variable created
+3. in terminal go to the ml dashboard location.
+4. run <conda activate env_name>
+5. run <streamlit run Home.py>
+6. Go to the dashboard link provided.
